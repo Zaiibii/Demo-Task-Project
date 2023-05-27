@@ -1,0 +1,109 @@
+.p-1 {
+    padding: 0.25rem!important;
+}
+.sics {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+.mt-3 {
+    margin-top: 1rem!important;
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cassics {
+    background: linear-gradient(180deg,#0862d9,#0567b9 42%,#00276d);
+    box-shadow: 0 5px 9px -3px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    position: relative;
+}
+.cassics img {
+    width: 100%;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+.cassics-btm{
+    font-family: sans-serif;
+    background: black;
+    padding: 4px 0;
+    text-align: center;
+    font-size: 16px;
+    line-height: 18px;
+    color: #fff;
+    letter-spacing: 2px;
+    position: absolute;
+    bottom: 0;
+    font-weight: 700;
+    width: 100%;
+    right: 0;
+    left: 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-height: 52px;
+}
+@media screen and (min-width:993px) and (max-width: 1200px){
+    #cardscol{
+        padding-left: 0.3rem;
+        padding-right: 0.3rem;
+    }
+    .cassics-btm{
+        font-size: 11px;
+        min-height: 43px;
+        line-height: 13px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    #cardscol{
+        padding-left: 0.2rem;
+        padding-right: 0.2rem;
+    }
+
+    .cassics-btm{
+        font-size: 12px;
+        line-height: 17px;
+        min-height: 41px;
+    }
+}
+@media screen and (min-width:828px) and (max-width: 992px){
+    #cardscol{
+        padding-left: 0.3rem;
+        padding-right: 0.3rem;
+    }
+    .cassics-btm{
+        font-size: 15px;
+        min-height: 45px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width: 823px){
+    #cardscol{
+        padding-left: 0.3rem;
+        padding-right: 0.3rem;
+    }
+    .cassics-btm{
+        font-size: 11px;
+        min-height: 43px;
+        line-height: 13px;
+    }
+}
+
+@media screen and (min-width:280px) and (max-width: 387px){
+    #cardscol{
+        padding-left: 0.3rem;
+        padding-right: 0.3rem;
+    }
+    .cassics-btm{
+        font-size: 9px;
+        min-height: 38px;
+        line-height: 10px;
+    }
+}

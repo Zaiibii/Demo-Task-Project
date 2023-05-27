@@ -1,0 +1,26 @@
+.navSportsDesktop {
+    list-style: none;
+    display: flex;
+    padding-top: 2px;
+    padding-left: 2px;
+    overflow-x: scroll;
+}
+.navItemsSports{
+    padding: 4px 15px;
+    border-radius: 0;
+    color: #000000;
+    cursor: pointer;
+    background: #bbb;
+    border-right: 1px solid rgb(0,0,0)!important;
+    border: 0;
+    min-width: max-content;
+    font-size: 17px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.navActiveSports {
+    background: linear-gradient(180deg,#bddd00,#b99d05 42%,#c68d0c)!important;
+}
+

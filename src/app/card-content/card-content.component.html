@@ -1,0 +1,47 @@
+    <div class="table-responsive">
+      <table class="table coupon-table ">
+        <thead>
+          <tr>
+            <th class="one-th">Game</th>
+            <th colspan="2">1</th>
+            <th colspan="2">X</th>
+            <th colspan="2">2</th>
+          </tr>
+        </thead>
+        <tbody>
+          <div class="record-con" *ngIf="!headercon.length"><span class="record-found">No real-time records found</span></div>
+          <tr *ngFor="let row of headercon">
+            <td style="padding-left: 1rem;">
+                <div class="game-name">
+                   <a href="" class="text-dark">{{"North West Warriors v Leinster Lightning / 23/5/2023 02:45 PM"}}</a> 
+                </div>
+            </td>
+            <td >
+                <button class="even">
+                    <span>{{0}}</span>
+                </button>
+            </td>
+            <td><button class="odd">
+                <span>{{0}}</span>
+            </button></td>
+            <td ><button class="even">
+                <span>{{0}}</span>
+            </button></td>
+            <td ><button class="odd">
+                <span>{{0}}</span>
+            </button></td>
+            <td><button class="even">
+                <span>{{0}}</span>
+            </button></td>
+            <td ><button class="odd">
+                <span>{{0}}</span>
+            </button></td>
+          </tr>
+        </tbody>
+      </table>
+      <div>
+      </div>
+      
+
+    </div>
+   

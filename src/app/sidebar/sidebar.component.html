@@ -1,0 +1,27 @@
+<div class="sidebar">
+    <div class="side-bar-title others-title" (click)="toggleOthers()">
+        <h5>Others</h5>
+        <i class="fa fa-chevron-right" aria-hidden="true" *ngIf="!showOthers"></i>
+        <i class="fa fa-chevron-down" aria-hidden="true" *ngIf="showOthers"></i>
+    </div>
+    <nav *ngIf="showOthers">
+        <ul>
+            <li class="nav-item"> <a href="" class="nav-link" ><span class="newlacunch-menu" [class.blinking]="isCasinoBlinking">Casino</span></a></li>
+            <li class="nav-item"><a href=""  class="nav-link"><span>Virtual Sports</span></a></li>
+        </ul>
+        
+    </nav>
+    <div class="side-bar-title all-sports-title" (click)="toggleAllSports()">
+        <h5>All Sports</h5>
+        <i class="fa fa-chevron-right" aria-hidden="true" *ngIf="!showAllSports"></i>
+        <i class="fa fa-chevron-down" aria-hidden="true" *ngIf="showAllSports"></i>
+    </div>
+    <nav class="mtree-main" *ngIf="showAllSports">
+        <ul class="mtree"><li><div><span><i class="fa fa-minus-square-o" aria-hidden="true"></i></span>Cricket</div></li></ul>
+        <ul class="mtree"><li><div><span><i class="fa fa-minus-square-o" aria-hidden="true"></i></span>Soccer</div></li></ul>
+        <ul class="mtree"><li><div><span><i class="fa fa-minus-square-o" aria-hidden="true"></i></span>BasketBall</div></li></ul>
+        <ul class="mtree"><li><div><span><i class="fa fa-minus-square-o" aria-hidden="true"></i></span>Tennis</div></li></ul>
+        <ul class="mtree"><li><div><span><i class="fa fa-minus-square-o" aria-hidden="true"></i></span>Horse Racing</div></li></ul>
+        <ul class="mtree"><li><div><span><i class="fa fa-minus-square-o" aria-hidden="true"></i></span>Greyhound Racing</div></li></ul>
+    </nav>
+</div>  

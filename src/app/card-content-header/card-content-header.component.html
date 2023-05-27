@@ -1,0 +1,10 @@
+<div>
+    <ul class="navSportsDesktop mt-2">
+        <li class="navItemSports " [ngClass]="active == 0 ? 'navActiveSports':''"><a (click)="add(5,0)">Cricket</a></li>
+        <li class="navItemSports" [ngClass]="active == 1 ? 'navActiveSports':''"><a (click)="add(45,1)" > Tennis</a></li>
+        <li class="navItemSports" [ngClass]="active == 2 ? 'navActiveSports':''"><a (click)="add(50,2)"> Soccer</a></li>
+        <li class="navItemSports" [ngClass]="active == 3 ? 'navActiveSports':''"><a (click)="add(0,3)">Horse racing</a></li>
+        <li class="navItemSports"><a >Special Event</a></li>
+    </ul>
+</div>
+<app-card-content [headercon]="arr"></app-card-content>

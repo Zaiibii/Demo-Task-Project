@@ -1,0 +1,16 @@
+<div class="container-fluid">
+    <div class="container-fluid p-1">
+        <div class="row row5 mt-3">
+            <div class="col-4 col-md-2 text-center" id="cardscol" *ngFor="let card of cards">
+            <div class="cassics">
+                <a href="">
+                <img [src]="card.image" [alt]="card.text" class="img-fluid">
+                <div class="cassics-btm">
+                    {{ card.text }}
+                </div>
+                </a>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
