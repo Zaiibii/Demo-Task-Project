@@ -6,11 +6,7 @@ tbody, td, tfoot, th, thead, tr {
 .table>thead {
     vertical-align: bottom;
 }
-/* table {
-    caption-side: bottom;
-    border-collapse: collapse;
-    width: 100%;
-} */
+
 tr {
     border-color: inherit;
     border-style: solid;
